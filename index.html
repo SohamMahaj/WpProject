@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RapidType - Improve Your Typing Speed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="nav">
+        <div class="logo">RapidType</div>
+        <div class="links">
+            <a href="" class="active">Home</a>
+            <select id="modeSelect">
+                <option disabled selected>Typing Test</option>
+                <option value="1 Min">1 Min</option>
+                <option value="3 Min">3 Min</option>
+                <option value="5 Min">5 Min</option>
+                <option value="1 Page">1 Page</option>
+                <option value="2 Page">2 Page</option>
+            </select>
+            
+            <a href="leaderboard.html">Leader Board</a>
+            <a href="about.html">About</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1><span id="typing-text"></span><span class="cursor">|</span></h1>
+        <h2>Challenge your fingers, challenge your mind!</h2>
+        <button class="start-btn">Start Typing</button>
+    </section>
+
+    <!-- Test Mode Selection -->
+    <section class="mode-selection">
+        <h3>Select Your Customized Mode</h3>
+        <div class="options">
+            <button class="mode-btn">1 Min</button>
+            <button class="mode-btn">3 Min</button>
+            <button class="mode-btn">5 Min</button>
+            <button class="mode-btn">1 Page</button>
+            <button class="mode-btn">2 Page</button>
+        </div>
+    </section>
+
+    <!-- Typing Stats Section -->
+    <div class="stats-container">
+        <h2>Typing Stats</h2>
+        <div class="stat-box">Total Tests Taken: <span id="total-tests">3540</span></div>
+        <div class="stat-box">Fastest Typist Today: <span id="fastest-speed">156</span> WPM</div>
+        <div class="stat-box">Average Typing Speed: <span id="average-speed">55</span> WPM</div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 RapidType | Improve Your Speed, Challenge Yourself!</p>
+    </footer>
+    <script src="homejs.js"></script>
+</body>
+</html>

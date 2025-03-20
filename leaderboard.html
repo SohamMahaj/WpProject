@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard - RapidType</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="nav">
+        <div class="logo">RapidType</div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <select id="modeSelect">
+                <option disabled selected>Typing Test</option>
+                <option value="1 Min">1 Min</option>
+                <option value="3 Min">3 Min</option>
+                <option value="5 Min">5 Min</option>
+                <option value="1 Page">1 Page</option>
+                <option value="2 Page">2 Page</option>
+            </select>
+            <a href="" class="active">Leader Board</a>
+            <a href="about.html">About</a>
+        </div>
+    </div>
+
+    <h1>Typing Test Leaderboard</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Speed (WPM)</th>
+                <th>Accuracy (%)</th>
+            </tr>
+        </thead>
+        <tbody id="leaderboard">
+            <!-- Leaderboard entries will be added here -->
+        </tbody>
+    </table>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 RapidType. All rights reserved.</p>
+    </footer>
+    <script src="leader.js"></script>
+</body>
+</html>
